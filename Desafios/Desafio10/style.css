@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(0, 150, 30), rgb(0, 126, 42));
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif
+    
+  }
+
+header > h1{
+    font-size: 3em;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+header > p{
+    
+    width: 370px;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    
+    
+}
+header>nav>a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin:0px;
+    
+}
+
+header>a{
+    text-decoration: none;
+}
+
+section>p>a{
+    text-decoration: none;
+    color: green;
+}
+section>p>a::after {
+    content: " 🔗"; /* Adiciona um ícone de link após o texto */
+    font-size: 14px;
+    color: gray;
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+main>h1{
+    font-family: 'idroid', sans-serif;
+    font-size: 2.2em;
+    color: green;
+    
+}
+
+main>h2{
+    font-family: 'idroid', sans-serif;
+    font-size: 1.5em;
+    color: green;}
+
+    #lista{
+
+        background-color: rgba(8, 189, 68, 0.614);
+        padding: 15px;
+    }
+    section>ul{
+        display: grid;
+        gap: 10px;       
+        grid-template-columns: repeat(2, 500px);
+        margin: 0;
+    }
+
+    span{
+        color: green;
+        font-weight: bold;
+    }
+    
+    footer{
+        text-align: center;
+        color: white;
+        background-color: rgb(2, 69, 27);
+        padding: 4px;
+    }
+/*h1{
+    font-family: 'idroid', sans-serif;
+    font-size: 2.2em;
+    color: green;
+    src: url('idroid.otf') format('opentype');
+
+}
+ 
+*/
