@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('background002.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+}
+
+header{
+    
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding: 50px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px black;
+}
+
+p{
+    width: 300px;
+    text-align: left;
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 1.4em;
+}
+
+
+.flor{
+
+  
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    font-size: 0.8em;
+}
+
+a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
