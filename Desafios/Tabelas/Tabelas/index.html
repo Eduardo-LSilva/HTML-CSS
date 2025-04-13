@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+           
+        }
+
+      
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <h1>Minha Primeira Tabela</h1>
+
+    <table> 
+        <!--Hierarchia de Tabelas simples
+        TABLE = tabela
+        TABELE ROW = Linha da tabela
+        TABLE HEADER = Cabeçalho da tabela
+        TABLE DATA = Dados da tabela
+        -->
+
+        <tr> <!--Primeira Linha-->
+            <td>A1</td> <!--Primeiro dado da primeira linha-->
+            <td>B1</td> <!--Segundo dado da primeira linha-->
+            <td>C1</td> <!--Terceiro dado da primeira linha-->
+        </tr>
+
+        <tr class="linha"> <!--Segunda Linha-->
+            <td>A2</td> <!--Primeiro dado da segunda linha-->
+            <td>B2</td> <!--Segundo dado da segunda linha-->
+            <td>C2</td> <!--Terceiro dado da segunda linha-->
+        </tr>
+
+        <tr> <!--Terceira Linha-->        
+            <td>A3</td> <!--Primeiro dado da terceira linha-->
+            <td>B3</td> <!--Segundo dado da terceira linha-->
+            <td>C3</td> <!--Terceiro dado da terceira linha-->
+        </tr>
+
+        <tr> <!--Quarta Linha-->        
+            <td>A4</td> <!--Primeiro dado da quarta linha-->
+            <td class="dado">B4</td> <!--Segundo dado da quarta linha-->
+            <td>C4</td> <!--Terceiro dado da quarta linha-->
+        </tr>
+
+
+    </table>
+</body>
+</html>

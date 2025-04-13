@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de Iframe</title>
+
+    <style>
+
+        div#mapa{
+            width: 600px;
+            height: 600px;
+            display: block;
+            margin: auto;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de Iframe</h1>
+<!--Tamanho padrão do iframe é de 300x150  o tamanho do iframe pode ser alterado, definindo altura e largura, porém o tamanho que prevalece é o do CSS, não do HTML-->
+    <p>Acessando o site do <a href="https://www.cursoemvideo.com" target="_blank">curso em vídeo</a> <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" width="500" scolling="no"></iframe>para aprender a programar</p> 
+
+    <p>o Site do <iframe src="https://google.com.br" frameborder="0"></iframe> tabmém é muito legal, pena que não funciona dentro do iframe</p>
+    <p>O repositório do Guanabara <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500"></iframe> também é muito legal</p>
+
+    <div id= "mapa" style="position: relative;"><div style="position: relative; padding-bottom: 75%; height: 0; overflow: hidden;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" loading="lazy" allowfullscreen src="https://maps.google.com/maps?q=garanhuns&output=embed"></iframe></div><a href="https://mapembeds.com/" rel="noopener" target="_blank" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;">google map wordpress</a></div>
+
+    
+    
+</body>
+</html>
